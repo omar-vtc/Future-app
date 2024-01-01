@@ -69,7 +69,7 @@ body {
   /* border: solid red; */
 }
 
-.why-spain-main {
+.why-country-main {
   width: 100%;
   height: 86dvh;
   /* border: solid green; */
@@ -79,7 +79,7 @@ body {
   justify-content: center;
 }
 
-.why-spain {
+.why-country {
   width: 100%;
   height: 80%;
   /* border: solid blue; */
@@ -90,7 +90,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.why-spain-cont {
+.why-country-cont {
   width: 50%;
   height: 70%;
   /* border: solid black; */
@@ -99,11 +99,11 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.why-spain-cont .btn {
+.why-country-cont .btn {
   width: 120px;
   margin-left: 2rem;
 }
-.why-spain-cont h1 {
+.why-country-cont h1 {
   font-size: 48px;
 }
 .ul-country {
