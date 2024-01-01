@@ -3,9 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/header.css";
 import logo from "../../img/logo.png";
 function Nav() {
+  const homePage = true;
   return (
     <nav
-      className="navbar fixed-top navbar-expand-lg bg-customized"
+      className={`navbar fixed-top navbar-expand-lg ${
+        homePage ? "bg-customized" : "bg-customized-count"
+      }`}
       id="navbar"
     >
       <div className="container-fluid nav-cust">

@@ -30,9 +30,14 @@
   /* border: solid red; */
   position: relative;
 }
+.bg-customized-count {
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 1px rgba(128, 128, 128, 0.267);
+}
 .bg-customized {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(236, 229, 229, 0);
   /* border-bottom: solid 1px rgba(128, 128, 128, 0.267); */
+  /* border: solid; */
 }
 .li-item-cust {
   margin-right: 10px;

@@ -4,19 +4,19 @@ import "../../css/header.css";
 
 function IntroBox(props) {
   if (props.homePage === true) {
-    console.log("Ommaaar");
+    // console.log("Ommaaar");
+    // console.log(props.content);
 
     return (
       <div className="intro-box">
         <h1>
-          <span className="main-title">The future</span>
+          <span className="main-title">{props.content.mainSpan}</span>
           <br />
-          of your Education Is Here <br />
+          {props.content.main} <br />
         </h1>
         <p className="future-desc">
-          <span className="future">Future Academy</span> Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Dolore aut perspiciatis sed ab,
-          magnam.
+          <span className="future">{props.content.future}</span>
+          {props.content.futureDesc}
         </p>
         <button className="btn btn-warning">Learn more</button>
       </div>
@@ -25,14 +25,13 @@ function IntroBox(props) {
     return (
       <div className="intro-box-cont">
         <h1>
-          <span className="main-title">The future</span>
+          <span className="main-title">{props.content.mainSpan}</span>
           <br />
-          of your Education Is Here <br />
+          {props.content.main} <br />
         </h1>
         <p className="future-desc">
-          <span className="future">Future Academy</span> Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Dolore aut perspiciatis sed ab,
-          magnam.
+          <span className="future">{props.content.future}</span>
+          {props.content.futureDesc}
         </p>
         <button className="btn btn-warning">Learn more</button>
       </div>

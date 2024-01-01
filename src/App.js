@@ -5,19 +5,8 @@ import Country from "./pages/Country";
 function App() {
   return (
     <div>
-      {/* <Header />
-      <WhyFuture />
-      <Country />
-      <Countryleft />
-      <Country />
-      <Countryleft />
-      <Country />
-      <Countryleft />
-      <UtTitle />
-      <UtGrid />
-      <Footer /> */}
-      {/* <Home /> */}
-      <Country />
+      <Home />
+      {/* <Country /> */}
     </div>
   );
 }

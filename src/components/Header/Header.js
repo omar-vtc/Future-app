@@ -12,7 +12,7 @@ function Header(props) {
       <div className="mega">
         <header className="header container-fluid">
           <Nav />
-          <IntroBox homePage={props.homePage} />
+          <IntroBox homePage={props.homePage} content={props.content} />
           <HeaderGrid />
         </header>
       </div>
