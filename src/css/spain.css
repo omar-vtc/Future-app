@@ -1,0 +1,237 @@
+body {
+  box-sizing: border-box;
+  padding: 0rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  /* color: #777; */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.badge {
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 89%, 0 100%);
+}
+.nav-cust {
+  height: 90px;
+}
+.bg-customized {
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 1px rgba(128, 128, 128, 0.267);
+}
+.li-item-cust {
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.country-intro {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  left: 5%;
+  top: 22%;
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.spain-pic {
+  width: 60%;
+  /* border: solid; */
+}
+.spain-pic img {
+  width: 100%;
+  height: 100%;
+  box-shadow: -5px 5px 10px 10px rgba(128, 128, 128, 0.068);
+}
+
+.main-title {
+  font-size: 90px;
+}
+.future {
+  font-size: 22.5px;
+  font-weight: 700;
+}
+.future-desc {
+  font-size: 22.5px;
+}
+.information {
+  /* border: solid red; */
+}
+
+.why-spain-main {
+  width: 100%;
+  height: 86dvh;
+  /* border: solid green; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why-spain {
+  width: 100%;
+  height: 80%;
+  /* border: solid blue; */
+  background-image: url(../img/woman2.jpg);
+  background-size: cover;
+  background-position: center -120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why-spain-cont {
+  width: 50%;
+  height: 70%;
+  /* border: solid black; */
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why-spain-cont .btn {
+  width: 120px;
+  margin-left: 2rem;
+}
+.why-spain-cont h1 {
+  font-size: 48px;
+}
+.ul-country {
+  /* border: solid rebeccapurple; */
+}
+
+.ul-country li {
+  font-size: 18.4px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+.requirments {
+  /* border: solid red; */
+}
+.req-main {
+  width: 100%;
+  height: auto;
+  z-index: -10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.req-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: solid brown; */
+}
+.req-title h5 {
+  opacity: 0.7;
+  padding-top: 15px;
+  margin: 0px;
+  z-index: -5;
+}
+.req-title h1 {
+  font-size: 55px;
+  z-index: -5;
+}
+.req-title p {
+  width: 70%;
+  /* border: solid; */
+  font-weight: 600;
+  opacity: 0.6;
+  z-index: -5;
+}
+.req-grid {
+  width: 95%;
+  height: 35rem;
+  margin-bottom: 15px;
+  /* border: solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.req-box {
+  width: 16rem;
+  aspect-ratio: 1/1;
+  border: solid 2px #d9e9e786;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 12px;
+}
+.icon-title {
+  width: 100%;
+  height: 50%;
+  /* border: solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.req-desc {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* border: solid magenta; */
+}
+
+.req-desc p {
+  text-align: center;
+  font-size: 14.4;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.btn-box {
+  width: 80%;
+  height: 50px;
+}
+.footer {
+  /* border: solid fuchsia; */
+}
+.footer-main {
+  width: 100%;
+  height: 85dvh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #00072dc4;
+}
+
+.footer-info {
+  width: 30%;
+  height: 80%;
+  /* border: solid orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center flex-start;
+  align-items: center;
+  color: white;
+}
+
+.footer-info p {
+  width: 80%;
+  height: auto;
+  text-align: center;
+}
+.footer-info p span {
+  font-weight: bold;
+}
