@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropComponent from "./DropComponent";
-
 import countriesHome from "../Content/CountriesInfo/CountriesHome";
 import UniversitiesHome from "../Content/CountriesInfo/UniversitiesHome";
 
@@ -45,8 +44,8 @@ function Navb(props) {
         <Navbar.Brand href="/">
           <img
             src={logo}
-            width="70"
-            height="70"
+            width="80"
+            height="82"
             className="d-inline-block align-top badge"
             alt="React Bootstrap logo"
           />
