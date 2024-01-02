@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropComponent from "./DropComponent";
-import { NavLink } from "react-router-dom";
+
 import countriesHome from "../Content/CountriesInfo/CountriesHome";
 import UniversitiesHome from "../Content/CountriesInfo/UniversitiesHome";
 
@@ -42,7 +42,7 @@ function Navb(props) {
       fixed="top"
     >
       <Container fluid>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={logo}
             width="70"
