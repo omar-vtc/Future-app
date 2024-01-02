@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+
 import Header from "../components/Header/Header";
 import WhyFuture from "../components/Countries/WhyFuture";
 import Country from "../components/Countries/Country";
@@ -23,12 +23,6 @@ function Home() {
           <Countryleft key={index} content={country} />
         )
       )}
-      {/* <Country content={spain} />
-      <Countryleft />
-      <Country content={spain} />
-      <Countryleft />
-      <Country content={spain} />
-      <Countryleft /> */}
       <UtTitle />
       <UtGrid />
       <Footer />

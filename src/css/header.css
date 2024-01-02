@@ -35,15 +35,16 @@
   border-bottom: solid 1px rgba(128, 128, 128, 0.267);
 }
 .bg-customized {
-  background-color: rgba(236, 229, 229, 0);
+  background-color: rgba(230, 16, 16, 0);
   /* border-bottom: solid 1px rgba(128, 128, 128, 0.267); */
   /* border: solid; */
 }
 .li-item-cust {
   margin-right: 10px;
-  font-size: large;
+  font-size: 21.5px;
   font-weight: 500;
 }
+
 .intro-box {
   position: absolute;
   width: 40%;

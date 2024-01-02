@@ -4,15 +4,15 @@ import "../../css/header.css";
 import "../../css/spain.css";
 import IntroBox from "./IntroBox";
 import HeaderGrid from "./HeaderGrid";
-import Nav from "./Nav";
-import CountryIntro from "./CountryIntro";
+import CountryPic from "./CountryPic";
+import Navb from "./Navb";
 function Header(props) {
   if (props.homePage) {
     return (
       <div className="mega">
         <header className="header container-fluid">
-          <Nav />
-          <IntroBox homePage={props.homePage} content={props.content} />
+          <Navb homePage={props.homePage} />
+          <IntroBox homePage={props.content.homePage} content={props.content} />
           <HeaderGrid />
         </header>
       </div>
@@ -20,8 +20,11 @@ function Header(props) {
   } else {
     return (
       <header className="header-cont container-fluid">
-        <Nav />
-        <CountryIntro />
+        <Navb homePage={props.homePage} />
+        <div className="country-intro">
+          <IntroBox homePage={false} content={props.content} />
+          <CountryPic />
+        </div>
       </header>
     );
   }

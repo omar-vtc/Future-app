@@ -2,8 +2,10 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/index.css";
 import about3 from "../../img/about3.jpg";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 function Country(props) {
-  console.log(props);
+  const id = props.content.id;
+  console.log(id);
   return (
     <div className="country">
       <div className="pic">
@@ -18,7 +20,9 @@ function Country(props) {
           </h1>
           <p>{props.content.desc}</p>
           <div className="btn-right">
-            <button className="btn btn1 btn-warning">Learn More</button>
+            <Link to={`/country/${id}`}>
+              <button className="btn btn1 btn-warning">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

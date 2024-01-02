@@ -1,12 +1,22 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import Home from "./pages/Home";
-import Country from "./pages/Country";
+import CountryPage from "./pages/CountryPage";
+
 function App() {
   return (
     <div>
-      <Home />
-      {/* <Country /> */}
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/country/:id">
+            <CountryPage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

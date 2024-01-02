@@ -33,7 +33,7 @@ function IntroBox(props) {
           <span className="future">{props.content.future}</span>
           {props.content.futureDesc}
         </p>
-        <button className="btn btn-warning">Learn more</button>
+        <button className="btn btn-warning">Apply Now</button>
       </div>
     );
   }
