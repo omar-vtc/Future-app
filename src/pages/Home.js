@@ -23,7 +23,7 @@ function Home() {
           <Countryleft key={index} content={country} />
         )
       )}
-      <UtTitle />
+      <UtTitle minTitle="REAL LIFE EXAMPLE" mainTitle={"News From The Blog"} />
       <UtGrid />
       <Footer />
     </div>

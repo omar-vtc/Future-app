@@ -4,7 +4,7 @@ import ReqGrid from "./ReqGrid";
 function Requirements() {
   return (
     <div class="req-main">
-      <UtTitle />
+      <UtTitle minTitle="WORK FOR YOUR FUTURE " mainTitle="Requirements" />
       <ReqGrid />
     </div>
   );

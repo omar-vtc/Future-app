@@ -24,7 +24,7 @@ function Countryleft(props) {
         </div>
       </div>
       <div className="pic">
-        <img src={about4} alt="about" />
+        <img src={props.content.pic} alt="about" />
       </div>
     </div>
   );

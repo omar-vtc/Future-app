@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/index.css";
-function UtTitle() {
+function UtTitle(props) {
   return (
     <div className="ut-title">
-      <h5>REAL LIFE EXAMPLE</h5>
-      <h1>News From The Blog</h1>
+      <h5>{props.minTitle}</h5>
+      <h1>{props.mainTitle}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
         officia ratione, quia laboriosam quam neque veritatis at reprehenderit

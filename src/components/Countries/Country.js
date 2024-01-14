@@ -9,7 +9,7 @@ function Country(props) {
   return (
     <div className="country">
       <div className="pic">
-        <img src={about3} alt="about" />
+        <img src={props.content.pic} alt="about" />
       </div>
       <div className="info">
         <div className="cont">
