@@ -18,13 +18,14 @@ function HeaderGrid() {
             <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
           </svg>
           <div class="desc">
-            <h2>Vision</h2>
+            <h2>رؤيتنا</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit, amet consectetur adipisicing elit.
+              أن نكون الشركة الرائدة في تقديم الخدمات التعليمية والتدريبية
+              والدراسات والاستشارات ذات الحلول الابتكارية الفعالة وفق أفضل
+              الممارسات العالمية.
             </p>
           </div>
-          <button class="btn btn-outline-secondary btn-lg">Learn more</button>
+          {/* <button class="btn btn-outline-secondary btn-lg">Learn more</button> */}
         </div>
 
         <div class="intro-con-box">
@@ -42,13 +43,14 @@ function HeaderGrid() {
             />
           </svg>
           <div class="desc">
-            <h2>Mission</h2>
+            <h2>رسالتنا</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit, amet consectetur adipisicing elit.
+              الارتقاء بعملائنا وتمكينهم من تحقيق غايتهم بتقديم خدمات استشارية
+              وتدريبية وتعليمية متميزة ، وتوفير الظروف والوسائل لإعداد جيل متميز
+              علميا من قادة المستقبل.
             </p>
           </div>
-          <button class="btn btn-outline-secondary btn-lg">Learn more</button>
+          {/* <button class="btn btn-outline-secondary btn-lg">Learn more</button> */}
         </div>
 
         <div class="intro-con-box">
@@ -63,13 +65,15 @@ function HeaderGrid() {
             <path d="M8.5.5a.5.5 0 0 0-1 0v.518A7.001 7.001 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7.001 7.001 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7.001 7.001 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7.001 7.001 0 0 0 8.5 1.018zm-6.48 7A6.001 6.001 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6.001 6.001 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6.002 6.002 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6.001 6.001 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1h-.48M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
           </svg>
           <div class="desc">
-            <h2>Aim</h2>
+            <h2>أهدافنا</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit, amet consectetur adipisicing elit.
+              تقديم افضل الخدمات التعليمة لتمكين الطلاب المتميزين من الدراسة في
+              افضل الجامعات العالمية <br /> تنمية مهارات وقدرات قادة المستقبل من
+              الطلاب المبدعين <br /> مساندة عملائنا في تطوير وتحسين أعمالهم
+              للوصول الي الأداء المتفوق
             </p>
           </div>
-          <button class="btn btn-outline-secondary btn-lg">Learn more</button>
+          {/* <button class="btn btn-outline-secondary btn-lg">Learn more</button> */}
         </div>
       </div>
       {/* <Grid3Boxes /> */}
