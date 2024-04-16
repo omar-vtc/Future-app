@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import CountryPage from "./pages/CountryPage";
+import Consulting from "./pages/Consulting";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path="/country/:id">
             <CountryPage />
+          </Route>
+          <Route path="/consulting">
+            <Consulting />
           </Route>
         </Switch>
       </Router>

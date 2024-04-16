@@ -17,6 +17,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.about-us {
+  width: 100%;
+  height: 400px;
+  border: solid red;
+}
 
 .countries {
   /* border: solid maroon; */
@@ -38,6 +43,7 @@ body {
   width: 60%;
   height: auto;
   /* border: solid orange; */
+  /* text-align: right; */
 }
 
 .why-future .info p {
@@ -145,6 +151,10 @@ body {
 }
 .ut-title h1 {
   font-size: 55px;
+  z-index: -5;
+}
+.ut-title #arab {
+  font-size: 50px;
   z-index: -5;
 }
 .ut-title p {

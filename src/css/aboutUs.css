@@ -1,0 +1,144 @@
+.ut-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid brown;
+}
+.ut-title h5 {
+  opacity: 0.7;
+  padding-top: 15px;
+  margin: 0px;
+  z-index: -5;
+}
+.ut-title h1 {
+  font-size: 55px;
+  z-index: -5;
+}
+.ut-title #arab {
+  font-size: 50px;
+  z-index: -5;
+}
+
+.spec-title {
+  text-align: center;
+  width: 100%;
+  /* border: solid green; */
+  margin: 0;
+}
+
+.about-future {
+  width: 100%;
+  height: 40dvh;
+  margin-top: 10px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #00072dbd;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-future .info {
+  width: 60%;
+  height: auto;
+  /* border: solid orange; */
+  text-align: right;
+}
+
+.about-future .info p {
+  font-size: larger;
+  font-weight: 500;
+}
+.about-future .button {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  /* border: solid yellow; */
+}
+
+.about-future .button .btn {
+  margin: auto;
+  width: 250px;
+  height: 50px;
+}
+.specializations {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  border: solid black;
+  display: flex;
+  align-items: center;
+}
+.specializations .pic {
+  width: 50%;
+  height: 80%;
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.089);
+  border: solid yellow;
+}
+.specializations .pic img {
+  width: 100%;
+  height: 100%;
+}
+.specializations .info {
+  width: 50%;
+  height: 80%;
+  border: solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specializations .info .cont {
+  width: 80%;
+  height: 80%;
+
+  /* border: solid; */
+}
+.specializations .info .cont h1 {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.big-title {
+  font-size: 70px;
+  font-weight: 400;
+}
+.specializations .info .cont p {
+  margin-left: 20px;
+  font-size: 18px;
+  color: rgba(70, 65, 65, 0.774);
+}
+.spec-main {
+  border: solid red;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spec-main .pic {
+  width: 65%;
+  height: 90%;
+  border: solid gold;
+}
+
+.spec-main .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic map {
+  border: solid red;
+  width: 100%;
+  height: 100%;
+}
+
+.pic .consulting {
+  border: solid;
+}
+area:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
