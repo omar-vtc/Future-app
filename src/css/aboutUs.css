@@ -112,33 +112,50 @@
   color: rgba(70, 65, 65, 0.774);
 }
 .spec-main {
-  border: solid red;
-  height: 80vh;
+  /* border: solid red; */
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(219, 219, 213, 255);
+  z-index: 0;
 }
 
 .spec-main .pic {
-  width: 65%;
-  height: 90%;
-  border: solid gold;
+  width: 880px;
+  height: 623px;
+  /* border: solid gold; */
+  position: relative;
+  z-index: 0;
 }
 
 .spec-main .pic img {
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
-.pic map {
+/* .relative-img {
+  position: relative;
+} */
+
+.consult {
+  --centroid_y = (696+713) / 2;
+}
+map {
   border: solid red;
-  width: 100%;
-  height: 100%;
+}
+area {
+  border: solid green;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px;
 }
 
-.pic .consulting {
-  border: solid;
-}
+/* CSS for the hover effect */
 area:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.5; /* Example: Reduce opacity on hover */
+  background-color: red;
+  /* Add other styles as needed */
 }

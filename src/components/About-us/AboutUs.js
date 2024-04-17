@@ -32,49 +32,52 @@ function AboutUs() {
       </div> */}
       <div className="spec-main">
         <div className="pic">
-          <img src={FASpec} alt="about" useMap="#image-map" />
+          <img
+            src={FASpec}
+            alt="about"
+            useMap="#image-map"
+            className="relative-img"
+          />
           <map name="image-map">
             <area
-              className="consulting"
+              className="consult"
               target=""
-              alt="consulting"
-              title="consulting"
+              alt="consult"
+              title="consult"
               href="/consulting"
-              coords="1024,430,1056,357,1069,307,1069,259,920,256,910,267,907,291,898,312,887,347,940,383"
+              coords="696,297,713,264,728,221,733,191,723,173,625,177,616,203,604,236"
               shape="poly"
-              onClick={() => handleAreaClick("consulting")}
-            />
-
+            ></area>
             <area
               target=""
-              alt="Study"
-              title="Study"
-              href=""
-              coords="845,583,903,557,942,524,987,487,1011,453,875,364,846,394,818,412,792,430"
+              alt="study"
+              title="study"
+              href="/"
+              coords="577,398,609,381,645,359,674,329,685,307,598,247,577,267,538,293"
               shape="poly"
             />
             <area
               target=""
-              alt="Training"
-              title="Training"
-              href=""
-              coords="603,587,645,605,709,611,788,601,824,593,771,441,732,444,692,446,653,437"
+              alt="training"
+              title="training"
+              href="/"
+              coords="409,403,444,414,483,417,534,412,561,403,527,298,488,302,446,295"
               shape="poly"
             />
             <area
               target=""
-              alt="Services"
-              title="Services"
-              href=""
-              coords="577,583,519,557,487,531,453,502,417,451,548,364,586,402,634,431"
+              alt="services"
+              title="services"
+              href="/"
+              coords="283,307,308,337,332,365,366,383,391,394,433,295,414,281,389,265,375,251"
               shape="poly"
             />
             <area
               target=""
-              alt="following"
-              title="following"
-              href=""
-              coords="354,259,356,299,367,351,383,396,406,431,542,346,523,302,512,254"
+              alt="follow-up"
+              title="follow-up"
+              href="/"
+              coords="237,174,244,217,252,255,277,293,370,235,354,209,347,172"
               shape="poly"
             />
           </map>
