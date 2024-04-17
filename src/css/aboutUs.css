@@ -139,9 +139,6 @@
   position: relative;
 } */
 
-.consult {
-  --centroid_y = (696+713) / 2;
-}
 map {
   border: solid red;
 }
