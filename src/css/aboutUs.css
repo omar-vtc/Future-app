@@ -1,10 +1,3 @@
-.ut-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid brown;
-}
 .ut-title h5 {
   opacity: 0.7;
   padding-top: 15px;
@@ -167,15 +160,36 @@ area {
 .strategy {
   width: 100%;
   height: 98vh;
-  /* border: solid red; */
+  border: solid red;
 }
-.strategy .strategy-img {
-  width: 80%;
-  height: 100%;
-  /* border: solid gold; */
-  margin: auto;
-}
-.strategy .strategy-img img {
+.strategy-title {
   width: 100%;
-  height: 100%;
+  height: 12%;
+  border: solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.strategy-title h1 {
+  display: inline-block;
+  margin: auto;
+  /* border: solid; */
+  font-size: 900;
+}
+.strategy-title h4 {
+  opacity: 0.7;
+  padding-top: 15px;
+  margin: 0px;
+  z-index: -5;
+  display: inline-block;
+  /* border: solid rebeccapurple; */
+}
+.strategy .strategy-title .float-right {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: solid magenta; */
+  align-items: flex-end;
 }

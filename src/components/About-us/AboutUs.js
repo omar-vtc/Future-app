@@ -28,15 +28,12 @@ function AboutUs() {
   return (
     <div>
       <AboutFuture />
-
       <div className="strategy">
-        <div className="strategy-img">
-          <img
-            src={strategy}
-            alt="about"
-            useMap="#image-map"
-            className="relative-img"
-          />
+        <div className="strategy-title">
+          <div className="float-right">
+            <h4>معلومات عن</h4>
+            <h1>استراتجية اكاديمية المستقبل</h1>
+          </div>
         </div>
       </div>
       <ImageMap />
