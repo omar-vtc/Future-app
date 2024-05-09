@@ -12,8 +12,9 @@ function AboutUs() {
   return (
     <div>
       <AboutFuture />
-      <Strategy />
-      <ImageMap />
+      <ProductCategories />
+      {/* <Strategy /> */}
+      {/* <ImageMap /> */}
     </div>
   );
 }

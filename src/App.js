@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
+import StrategyPage from "./pages/StrategyPage";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/Studies">
             <Studies />
+          </Route>
+          <Route path="/Strategy">
+            <StrategyPage />
           </Route>
         </Switch>
       </Router>
