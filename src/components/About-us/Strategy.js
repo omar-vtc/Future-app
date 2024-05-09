@@ -6,7 +6,11 @@ import StrSpTitle from "../UtilitiesCont/StrSpTitle";
 function Strategy() {
   return (
     <div className="strategy">
-      <StrSpTitle />
+      <StrSpTitle
+        className="strategy-title"
+        subtitle="معلومات عن"
+        title="استراتجية اكاديمية المستقبل"
+      />
       <div className="strategy-info">
         <div className="strategy-pic">
           <img src={stpic} />

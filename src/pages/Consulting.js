@@ -1,39 +1,38 @@
-import Accordion from "react-bootstrap/Accordion";
 import Navb from "../components/Header/Navb";
+import Accordion from "@mui/material/Accordion";
+import AccordionActions from "@mui/material/AccordionActions";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Typography from "@mui/material/Typography";
+import H3Edit from "../components/UtilitiesCont/H3Edit";
+import H2Edit from "../components/UtilitiesCont/H2Edit";
+import Paragraph from "../components/UtilitiesCont/Paragraph";
+import AccordionComponent from "../components/UtilitiesCont/AccordionComponent";
+import ConsultRight from "../components/About-us/ConsultRight";
+import ConsultLeft from "../components/About-us/ConsultLeft";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import IntroBoxesCont from "../components/Content/IntroBoxes/IntroBoxesCont";
+import StrSpTitle from "../components/UtilitiesCont/StrSpTitle";
 
 function Consulting() {
   return (
     <div>
-      <Navb />
-      <div className="str">
-        <Accordion defaultActiveKey={["0"]} alwaysOpen>
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
+      <Header homePage={false} content={IntroBoxesCont[7]} />
+      <div className="consult">
+        <StrSpTitle
+          className="strategy-title-consult"
+          subtitle="معلومات عن"
+          title="استراتجية اكاديمية المستقبل"
+        />
+        <div className="mother-consult">
+          <ConsultRight />
+          <ConsultLeft />
+        </div>
+      </div>
+      <div className="marginTop">
+        <Footer />
       </div>
     </div>
   );

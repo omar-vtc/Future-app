@@ -1,9 +1,9 @@
-function StrSpTitle() {
+function StrSpTitle(props) {
   return (
-    <div className="strategy-title">
+    <div className={props.className}>
       <div className="float-right">
-        <h4>معلومات عن</h4>
-        <h1>استراتجية اكاديمية المستقبل</h1>
+        <h4>{props.subtitle}</h4>
+        <h1>{props.title}</h1>
       </div>
     </div>
   );

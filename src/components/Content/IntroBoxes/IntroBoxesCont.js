@@ -62,6 +62,15 @@ const IntroBoxesCont = [
     futureDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut perspiciatis sed ab, magnam",
   },
+  {
+    id: 7,
+    homaPage: false,
+    mainSpan: "Malissia",
+    main: "your Education Is Here",
+    future: "Future Academy",
+    futureDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut perspiciatis sed ab, magnam",
+  },
 ];
 
 export default IntroBoxesCont;

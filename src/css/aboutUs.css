@@ -165,7 +165,7 @@ area {
 .strategy-title {
   width: 100%;
   height: 12%;
-  /* border: solid green; */
+  border: solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,22 +214,24 @@ area {
 .strategy .strategy-info .st-content {
   width: 55%;
   height: 100%;
-  /* border: solid maroon; */
+  /* border: solid gold; */
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: flex-start;
   margin-right: 40px;
+  overflow: scroll;
 }
 .h2-edit {
   /* border: solid red; */
   display: inline-block;
   color: rgba(14, 14, 110, 0.836);
   margin-right: 20px;
+  margin-top: 5px;
 }
 .paragraph {
   display: inline-block;
-  width: 55%;
+  width: 70%;
   height: auto;
   text-align: right;
   font-size: 500;
@@ -249,9 +251,71 @@ area {
   color: rgba(201, 134, 10, 0.918);
   margin-right: 20px;
 }
-.str {
+.mother-consult {
   width: 100%;
-  height: 500px;
-  border: solid red;
-  margin-top: 120px;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  /* border: solid orange; */
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.cons-right {
+  width: 48%;
+  height: auto;
+  /* border: solid red; */
+}
+
+.paragraph-accordion {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: right;
+  font-size: 17px;
+  font-weight: 100;
+  background-color: #656d6f25;
+  margin-right: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 0px 10px 0px;
+}
+.consult {
+  width: 100%;
+  height: auto;
+  /* border: solid red; */
+  margin-top: 10px;
+}
+
+.strategy-title-consult {
+  width: 100%;
+  height: 100px;
+  /* border: solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.strategy-title-consult h1 {
+  display: inline-block;
+  margin: auto;
+  /* border: solid; */
+  font-size: 900;
+}
+.strategy-title-consult h4 {
+  opacity: 0.7;
+  padding-top: 15px;
+  margin: 0px;
+  z-index: -5;
+  display: inline-block;
+  /* border: solid rebeccapurple; */
+}
+.strategy-title-consult .float-right {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: solid magenta; */
+  align-items: flex-end;
+}
+.marginTop {
+  margin-top: 20px;
 }
