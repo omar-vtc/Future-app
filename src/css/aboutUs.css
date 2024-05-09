@@ -165,7 +165,7 @@ area {
 .strategy-title {
   width: 100%;
   height: 12%;
-  border: solid green;
+  /* border: solid green; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,4 +318,23 @@ area {
 }
 .marginTop {
   margin-top: 20px;
+}
+.st-img {
+  width: 100%;
+  height: 80vh;
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(219, 219, 213, 255);
+  box-shadow: 30px 0px 30px 0px rgba(219, 219, 213, 255);
+}
+.child-img {
+  width: 70%;
+  height: 80%;
+  /* border: solid; */
+}
+.child-img img {
+  width: 100%;
+  height: 100%;
 }

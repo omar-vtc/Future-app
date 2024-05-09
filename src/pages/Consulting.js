@@ -24,7 +24,7 @@ function Consulting() {
         <StrSpTitle
           className="strategy-title-consult"
           subtitle="معلومات عن"
-          title="استراتجية اكاديمية المستقبل"
+          title="الاستشارات"
         />
         <div className="mother-consult">
           <ConsultRight />

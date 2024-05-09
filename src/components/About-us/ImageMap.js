@@ -26,7 +26,7 @@ function ImageMap() {
             target=""
             alt="study"
             title="study"
-            href="/"
+            href="/Studies"
             coords="577,398,609,381,645,359,674,329,685,307,598,247,577,267,538,293"
             shape="poly"
           />

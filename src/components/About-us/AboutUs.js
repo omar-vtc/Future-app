@@ -6,6 +6,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import ImageMap from "./ImageMap";
 import Strategy from "./Strategy";
+import ProductCategories from "../UtilitiesCont/ProductCategories";
 
 function AboutUs() {
   return (
