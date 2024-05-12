@@ -13,7 +13,7 @@ function Strategy() {
       />
       <div className="strategy-info">
         <div className="strategy-pic">
-          <img src={stpic} />
+          <img src={stpic} alt="" />
         </div>
         <div className="st-content">
           <H2Edit

@@ -1,4 +1,3 @@
-import IntroBoxSpain from "../components/Content/IntroBoxes/IntroBoxSpain";
 import Requirements from "../components/CountryInfo/Requirements";
 import WhyCountry from "../components/CountryInfo/WhyCountry";
 import Footer from "../components/Footer/Footer";
