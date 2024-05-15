@@ -12,6 +12,8 @@ import MKBox from "./../MKBox/index";
 import MKTypography from "./../MKTypography/index";
 import borders from "../../assets/theme/base/borders";
 import GridFeatures from "./GridFeatures";
+import { MyLocation } from "@mui/icons-material";
+import TitleGridItem from "./TitleGridItem";
 
 function FeaturesOne() {
   return (
@@ -22,12 +24,21 @@ function FeaturesOne() {
       <MKBox
         component="section"
         py={{ xs: 3, md: 12 }}
-        style={{ border: "solid red" }}
+        style={{ border: "solid blue" }}
       >
         <Container>
           <Grid container alignItems="center" style={{ border: "solid green" }}>
+            <Grid
+              container
+              alignItems="center"
+              style={{ border: "solid blue" }}
+            >
+              <TitleGridItem title="تقرير العمل" icon={2} />
+              <TitleGridItem title="الجهة المستفيدة" icon={3} />
+              <TitleGridItem title="الاعمال" icon={1} />
+            </Grid>
             <GridFeatures />
-            {/* <GridFeatures /> */}
+            <GridFeatures />
           </Grid>
         </Container>
       </MKBox>

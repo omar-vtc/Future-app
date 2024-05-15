@@ -18,9 +18,15 @@ function GridFeatures() {
         <MKBox
           display="flex"
           alignItems="center"
+          justifyContent="flex-End"
           p={2}
-          style={{ border: "solid red" }}
+          style={{ border: "solid black" }}
         >
+          <MKTypography variant="body2" color="text" pl={2} textAlign="right">
+            It becomes harder for us to give others a hand.
+            <br />
+            We get our heart broken by people we love.
+          </MKTypography>
           <MKBox
             width="3rem"
             height="3rem"
@@ -36,13 +42,19 @@ function GridFeatures() {
           >
             <MediationIcon fontSize="medium" sx={{ color: "white" }} />
           </MKBox>
-          <MKTypography variant="body2" color="text" pl={2}>
-            It becomes harder for us to give others a hand.
-            <br />
-            We get our heart broken by people we love.
-          </MKTypography>
         </MKBox>
-        <MKBox display="flex" alignItems="center" p={2}>
+        <MKBox
+          display="flex"
+          alignItems="center"
+          justifyContent="flex-End"
+          style={{ border: "solid black" }}
+          p={2}
+        >
+          <MKTypography variant="body2" color="text" pl={2} textAlign="right">
+            As we live, our hearts turn colder.
+            <br />
+            Cause pain is what we go through as we become older.
+          </MKTypography>
           <MKBox
             width="3rem"
             height="3rem"
@@ -59,18 +71,25 @@ function GridFeatures() {
               settings_overscan
             </SettingsOverscanIcon>
           </MKBox>
-          <MKTypography variant="body2" color="text" pl={2}>
-            As we live, our hearts turn colder.
-            <br />
-            Cause pain is what we go through as we become older.
-          </MKTypography>
         </MKBox>
         <MKBox
           display="flex"
           alignItems="center"
+          justifyContent="flex-End"
           p={2}
           style={{ border: "solid black" }}
         >
+          <MKTypography
+            variant="body2"
+            color="text"
+            pl={2}
+            style={{ border: "solid red" }}
+            textAlign="right"
+          >
+            When we lose family over time.
+            <br />
+            What else could rust the heart more over time? Blackgold.
+          </MKTypography>
           <MKBox
             width="3rem"
             height="3rem"
@@ -88,16 +107,6 @@ function GridFeatures() {
               token
             </TokenIcon>
           </MKBox>
-          <MKTypography
-            variant="body2"
-            color="text"
-            pl={2}
-            style={{ border: "solid red" }}
-          >
-            When we lose family over time.
-            <br />
-            What else could rust the heart more over time? Blackgold.
-          </MKTypography>
         </MKBox>
       </Stack>
     </Grid>
