@@ -1,14 +1,10 @@
-import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "./Typography";
-import Icon from "@mui/material/Icon";
-import Stack from "@mui/material/Stack";
 import MediationIcon from "@mui/icons-material/Mediation";
 import SettingsOverscanIcon from "@mui/icons-material/SettingsOverscan";
 import TokenIcon from "@mui/icons-material/Token";
 // Material Kit 2 React components
 import MKBox from "./../MKBox/index";
-import MKTypography from "./../MKTypography/index";
 import Box from "@mui/material/Box";
 
 function TitleGridItem(props) {
