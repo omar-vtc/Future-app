@@ -9,32 +9,37 @@ import TokenIcon from "@mui/icons-material/Token";
 // Material Kit 2 React components
 import MKBox from "./../MKBox/index";
 import MKTypography from "./../MKTypography/index";
+import Box from "@mui/material/Box";
 
 function TitleGridItem(props) {
   return (
-    <Grid item xs={6} md={4} style={{ border: "solid blue" }}>
-      <MKBox
+    <Grid item xs={6} md={props.width}>
+      <Box
         display="flex"
         alignItems="center"
         justifyContent="flex-End"
         pl={2}
         py={{ xs: 3, md: 1 }}
-        style={{ border: "solid yellow" }}
+        sx={{ paddingRight: "10px" }}
+        style={{
+          border: "solid skyBlue 2px",
+          borderRadius: "10px 0px 10px 0px",
+        }}
       >
-        <MKTypography
+        <Typography
           variant="h5"
           color="text"
           textAlign="right"
           style={{
-            width: "40%",
+            width: "50%",
             marginRight: "10px ",
           }}
         >
           {props.title}
-        </MKTypography>
+        </Typography>
         <MKBox
-          width="3rem"
-          height="3rem"
+          width="2.5rem"
+          height="2.5rem"
           variant="gradient"
           bgColor="info"
           color="white"
@@ -42,7 +47,7 @@ function TitleGridItem(props) {
           display="flex"
           alignItems="center"
           justifyContent="center"
-          borderRadius="xl"
+          sx={{ borderRadius: "10px 0px 10px 0px" }}
         >
           {props.icon === 1 ? (
             <MediationIcon fontSize="medium" sx={{ color: "white" }} />
@@ -52,7 +57,7 @@ function TitleGridItem(props) {
             <SettingsOverscanIcon fontSize="medium" sx={{ color: "white" }} />
           )}
         </MKBox>
-      </MKBox>
+      </Box>
     </Grid>
   );
 }
