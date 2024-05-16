@@ -6,6 +6,7 @@ import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
 import StrategyPage from "./pages/StrategyPage";
+import MKHome from "./pages/MKHome";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Home />
+            {/* <Home /> */}
+            <MKHome />
           </Route>
           <Route path="/country/:id">
             <CountryPage />
