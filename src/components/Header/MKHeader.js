@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import linearGradient from "../../assets/theme/functions/linearGradient";
 
 // Material Kit 2 React components
 import MKBox from "./../MKBox/index";
@@ -145,18 +146,19 @@ function MKHeader() {
         display="flex"
         alignItems="center"
         minHeight="100vh"
-        sx={{
-          backgroundImage: ({
-            palette: { gradients },
-            functions: { linearGradient, rgba },
-          }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.5),
-              rgba(gradients.dark.state, 0.5)
-            )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+        sx={{ backgroundImage: { bgImage } }}
+        // sx={{
+        //   backgroundImage: ({
+        //     palette: { gradients },
+        //     { linearGradient, rgba },
+        //   }) =>
+        //     `${linearGradient(
+        //       rgba(gradients.dark.main, 0.5),
+        //       rgba(gradients.dark.state, 0.5)
+        //     )}, url(${bgImage})`,
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "center",
+        // }}
       >
         <Container>
           <Grid
