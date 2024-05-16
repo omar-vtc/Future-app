@@ -2,7 +2,6 @@ import Stack from "@mui/material/Stack";
 import MediationIcon from "@mui/icons-material/Mediation";
 import SettingsOverscanIcon from "@mui/icons-material/SettingsOverscan";
 import TokenIcon from "@mui/icons-material/Token";
-import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "./../MKBox/index";
 import MKTypography from "./../MKTypography/index";

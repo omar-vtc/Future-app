@@ -1,7 +1,5 @@
 import { Grid } from "@mui/material";
-import MKBox from "../MKBox";
-import MKTypography from "../MKTypography";
-import { Padding } from "@mui/icons-material";
+
 import Typography from "./Typography";
 import Box from "@mui/material/Box";
 
