@@ -6,11 +6,12 @@ import Footer from "../components/Footer/Footer";
 import introBoxHome from "../components/Content/IntroBoxes/IntroBoxHome";
 
 import AboutUs from "../components/About-us/AboutUs";
+import NewHeader from "../components/NewHeader/NewHeader";
 function Home() {
   // console.log(introBoxHome);
   return (
     <div>
-      <Header homePage={true} content={introBoxHome} />
+      <NewHeader homePage={true} content={introBoxHome} />
       <AboutUs />
       {/* <WhyFuture /> */}
       {/* {countriesHome.map((country, index) =>
