@@ -1,3 +1,6 @@
+import { Button } from "@mui/material";
+import MKButton from "../MKButton";
+
 function AboutFuture() {
   return (
     <div className="about-future ">

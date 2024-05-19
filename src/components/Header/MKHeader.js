@@ -4,13 +4,15 @@ import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import linearGradient from "../../assets/theme/functions/linearGradient";
 
+import linearGradient from "../../assets/theme/functions/linearGradient";
+import rgba from "../../assets/theme/functions/rgba";
+import colors from "../../assets/theme/base/colors";
 // Material Kit 2 React components
 import MKBox from "./../MKBox/index";
 // import MKButton from "./../MKButton/index";
 import MKTypography from "./../MKTypography/index";
-
+import typography from "../../assets/theme/base/typography";
 // Images
 import bgImage from "../../assets/images/bg-coworking.jpeg";
 
@@ -32,9 +34,9 @@ function MKHeader() {
               Material Design
             </MKTypography>
             <Button
-              variant="outlined"
-              color="white"
-              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
+            // variant="outlined"
+            // color="white"
+            // sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
             </Button>
@@ -146,19 +148,12 @@ function MKHeader() {
         display="flex"
         alignItems="center"
         minHeight="100vh"
-        sx={{ backgroundImage: { bgImage } }}
-        // sx={{
-        //   backgroundImage: ({
-        //     palette: { gradients },
-        //     { linearGradient, rgba },
-        //   }) =>
-        //     `${linearGradient(
-        //       rgba(gradients.dark.main, 0.5),
-        //       rgba(gradients.dark.state, 0.5)
-        //     )}, url(${bgImage})`,
-        //   backgroundSize: "cover",
-        //   backgroundPosition: "center",
-        // }}
+        // sx={{ backgroundImage: { bgImage } }}
+        sx={{
+          backgroundImage: ` url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <Container>
           <Grid
@@ -174,11 +169,11 @@ function MKHeader() {
               variant="h1"
               color="white"
               mb={3}
-              sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
-              })}
+              // sx={({ breakpoints, typography: { size } }) => ({
+              //   [breakpoints.down("md")]: {
+              //     fontSize: size["3xl"],
+              //   },
+              // })}
             >
               Material Kit
             </MKTypography>
@@ -193,10 +188,8 @@ function MKHeader() {
               shun people for being nice.
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
-              <Button color="white">Get Started</Button>
-              <Button variant="text" color="white">
-                Read more
-              </Button>
+              <Button>Get Started</Button>
+              <Button>Read more</Button>
             </Stack>
           </Grid>
         </Container>

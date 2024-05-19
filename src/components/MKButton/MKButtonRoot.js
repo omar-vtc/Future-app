@@ -26,11 +26,12 @@ import rgba from "../../assets/theme/functions/rgba";
 import borders from "../../assets/theme/base/borders";
 import boxShadows from "../../assets/theme/base/boxShadows";
 import colors from "../../assets/theme/base/colors";
+
 export default styled(Button)(({ theme, ownerState }) => {
   const { palette } = theme;
   const { color, variant, size, circular, iconOnly } = ownerState;
 
-  const { white, text, transparent, gradients, dark } = palette;
+  const { white, text, transparent, gradients, dark } = colors;
 
   const { borderRadius } = borders;
   const { colored } = boxShadows;
