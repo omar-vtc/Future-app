@@ -34,9 +34,9 @@ function MKHeader() {
               Material Design
             </MKTypography>
             <Button
-            // variant="outlined"
-            // color="white"
-            // sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
+              // variant="outlined"
+              // color="white"
+              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
             </Button>
