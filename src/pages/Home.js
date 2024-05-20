@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header/Header";
 
 import Footer from "../components/Footer/Footer";
@@ -7,11 +6,24 @@ import introBoxHome from "../components/Content/IntroBoxes/IntroBoxHome";
 
 import AboutUs from "../components/About-us/AboutUs";
 import NewHeader from "../components/NewHeader/NewHeader";
+import JsonData from ".././data/data.json";
+import { NewH } from "../components/NewHeader/NewH";
+import { Features } from "../components/About-us/Features";
+import { About } from "../components/About-us/About";
+import { Services } from "../components/About-us/Services";
 function Home() {
   // console.log(introBoxHome);
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
   return (
     <div>
-      <NewHeader homePage={true} content={introBoxHome} />
+      {/* <NewHeader homePage={true} content={introBoxHome} /> */}
+      <NewH />
+      <Features data={landingPageData.Features} />
+      <About data={landingPageData.About} />
+      <Services data={landingPageData.Services} />
       <AboutUs />
       {/* <WhyFuture /> */}
       {/* {countriesHome.map((country, index) =>

@@ -9,7 +9,6 @@
 .mega {
   width: 100%;
   height: 135vh;
-  /* border: solid red; */
 }
 
 .header-cont {
@@ -18,7 +17,6 @@
   height: 100dvh;
   z-index: 1;
   color: white;
-  /* border: solid red; */
   position: relative;
 }
 .header {
@@ -28,7 +26,6 @@
   width: 100%;
   height: 110dvh;
   z-index: 0;
-  /* border: solid red; */
   position: relative;
 }
 .bg-customized-count {

@@ -7,8 +7,9 @@ import FeaturesOne from "../UtilitiesCont/FeaturesOne";
 function AboutUs() {
   return (
     <div>
-      <AboutFuture />
-      <ProductCategories />
+      {/* <AboutFuture /> */}
+      {/* <ProductCategories /> */}
+
       <FeaturesOne />
       {/* <Strategy /> */}
       {/* <ImageMap /> */}
