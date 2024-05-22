@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import React, { useState, useEffect } from "react";
 import consultData from "../../data/consulting.json";
 
@@ -33,13 +32,9 @@ export const ConsultServices = (props) => {
                   className="col-md-4 hovering"
                   style={{
                     height: "270px",
-                    // border: "solid red",
                     borderRadius: "20px",
                     margin: "5px",
                     background: "#f6f6f6",
-                    // display: "flex",
-                    // alignItems: "center",
-                    // justifyItems: "center",
                   }}
                 >
                   <i className={d.icon}> {i + 1} </i>
