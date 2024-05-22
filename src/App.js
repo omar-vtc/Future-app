@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -6,7 +6,7 @@ import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
 import StrategyPage from "./pages/StrategyPage";
-
+import consultData from "./data/consulting.json";
 function App() {
   return (
     <div>
