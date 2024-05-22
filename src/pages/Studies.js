@@ -1,33 +1,58 @@
-import Header from "../components/Header/Header";
-import IntroBoxesCont from "../components/Content/IntroBoxes/IntroBoxesCont";
-import StrSpTitle from "../components/UtilitiesCont/StrSpTitle";
-import Footer from "../components/Footer/Footer";
+import React, { useState, useEffect } from "react";
 
-import studies from "../img/studies.png";
+import { NewH } from "../components/NewHeader/NewH";
+import StudiesData from "../data/Studies.json";
+import NewFooter from "../components/Footer/NewFooter";
 
 function Studies() {
+  const [StudiesDataPage, setStudiesDataPage] = useState({});
+  useEffect(() => {
+    setStudiesDataPage(StudiesData);
+  }, []);
   return (
     <div>
-      <Header homePage={false} content={IntroBoxesCont[7]} />
-      <div className="consult">
-        <StrSpTitle
-          className="strategy-title-consult"
-          subtitle="معلومات عن"
-          title="الدراسات"
-        />
-        {/* <div className="mother-consult">
-          <ConsultRight />
-          <ConsultLeft />
-        </div> */}
-        <div className="st-img">
-          <div className="child-img">
-            <img src={studies} alt="" />
+      <NewH />
+      <div id="consultServices" className="text-center">
+        <div className="container">
+          <div className="section-title">
+            <h2>الدراسات</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
+              dapibus leonec.
+            </p>
+          </div>
+          <div
+            className="row"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            {StudiesDataPage.Studies
+              ? StudiesDataPage.Studies.map((d, i) => (
+                  <div
+                    key={`${d.name}-${i}`}
+                    className="col-md-4 hovering"
+                    style={{
+                      // height: "270px",
+                      borderRadius: "20px",
+                      margin: "5px",
+                      background: "#f6f6f6",
+                    }}
+                  >
+                    <i className={d.icon}> {i + 1} </i>
+                    <div className="service-desc">
+                      <h3>{d.name}</h3>
+                      <p>{d.text}</p>
+                    </div>
+                  </div>
+                ))
+              : "loading"}
           </div>
         </div>
       </div>
-      <div className="marginTop">
-        <Footer />
-      </div>
+      <NewFooter />
     </div>
   );
 }
