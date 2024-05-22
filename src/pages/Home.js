@@ -11,6 +11,10 @@ import { NewH } from "../components/NewHeader/NewH";
 import { Features } from "../components/About-us/Features";
 import { About } from "../components/About-us/About";
 import { Services } from "../components/About-us/Services";
+import { Gallery } from "../components/About-us/Gallery";
+import { Team } from "../components/About-us/Team";
+import { Testimonials } from "../components/About-us/Testimonials";
+import NewFooter from "../components/Footer/NewFooter";
 function Home() {
   // console.log(introBoxHome);
   const [landingPageData, setLandingPageData] = useState({});
@@ -24,7 +28,10 @@ function Home() {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <AboutUs />
+      <Gallery data={landingPageData.Gallery} />
+      <Testimonials data={landingPageData.Testimonials} />
+      <Team data={landingPageData.Team} />
+      {/* <AboutUs /> */}
       {/* <WhyFuture /> */}
       {/* {countriesHome.map((country, index) =>
         index % 2 === 0 ? (
@@ -35,7 +42,8 @@ function Home() {
       )} */}
       {/* <UtTitle />
       <UtGrid /> */}
-      <Footer />
+      <NewFooter data={landingPageData.Contact} />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -256,15 +256,15 @@ header .intro-text {
   background: #f6f6f6;
 }
 #features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
+  font-size: 48px;
+  width: 115px;
+  height: 115px;
+  margin-bottom: 30px;
   padding: 20px 20px;
-  border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  /* border: solid; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -337,13 +337,14 @@ header .intro-text {
   left: 50%;
 }
 #services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
+  font-size: 55px;
+  width: 160px;
+  height: 160px;
+  padding: 20px 20px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-radius: 50%;
   color: #fff;
+  /* border: solid; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
@@ -364,6 +365,7 @@ header .intro-text {
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+  /* height: 200px; */
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -421,8 +423,8 @@ header .intro-text {
   padding: 20px;
 }
 .testimonial-image {
-  float: left;
-  margin-right: 15px;
+  float: right;
+  margin-left: 10px;
 }
 .testimonial-image,
 .testimonial-image img {
@@ -438,6 +440,7 @@ header .intro-text {
 .testimonial-content p {
   margin-bottom: 0;
   font-size: 14px;
+  text-align: right;
   font-style: italic;
 }
 .testimonial-meta {
@@ -445,6 +448,7 @@ header .intro-text {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+  text-align: right;
 }
 /* Team Section */
 #team {
@@ -580,7 +584,7 @@ label {
   font-size: 22px;
   width: 48px;
   height: 48px;
-  padding: 12px 0;
+  padding: 20px 20px;
   border: 2px solid #fff;
   color: #fff;
   border-radius: 50%;
@@ -590,7 +594,7 @@ label {
   color: #608dfd;
   background: #fff;
 }
-/* Footer Section*/
+/* Footer Section */
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
@@ -605,7 +609,6 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
-
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;

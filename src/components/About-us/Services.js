@@ -11,7 +11,14 @@ export const Services = (props) => {
             dapibus leonec.
           </p>
         </div>
-        <div className="row">
+        <div
+          className="row"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
