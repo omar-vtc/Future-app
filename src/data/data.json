@@ -68,28 +68,33 @@
   "Services": [
     {
       "icon": "fa bi bi-patch-question-fill",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "to": "/consulting",
+      "name": "الاستشارات",
+      "text": "تسعى اكاديمية المستقبل لتقديم أفضل الخدمات الاستشارية للشركات الخاصة والمصانع المتوسطة والصغيرة حيث قدمت العديد من الاستشارات لبناء استراتيجيات تطوير اعمال وتحسين نظمة الإدارة وبناء نماذج العمل الابتكارية التي حققت التفوق والريادة والربحية لتلك الشركات."
     },
     {
       "icon": "fa bi bi-book-fill",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "to": "/Studies",
+      "name": "الدراسات",
+      "text": "تقدم أكاديمية المستقبل الدراسات التالية للمؤسسات والجهات الحكومية ومنظمات الاعمال:"
     },
     {
       "icon": "fa bi bi-person-fill-gear",
-      "name": "Lorem ipsum dolor",
+      "to": "/Studies",
+      "name": "التدريب والتعليم",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa bi bi-gear-fill",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "to": "/Studies",
+      "name": "خدمات التعليم للقادة ومدراء الاعمال واستشارات المدراس",
+      "text": "مساعدة اصحاب الشركات والمنشآت في إدارة وتطوير وتحسين الأعمال والإجراءات الإدارية والمالية والتسويقية والتركيز على المهام والعمليات الرئيسية وفي سبيل ذلك نقدم مجموعة الخدمات"
     },
     {
       "icon": "fa bi bi-cash-coin",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "to": "/Studies",
+      "name": "متابعة وتطوير الأداء المالي والإداري والفني والتسويقي للشركات",
+      "text": "عملية تطوير وتحسين منظمات الاعمال تعتمد على كفاءة وقدرة الموارد البشرية ومدى امتلاكها المعرفة والمهارات اللازمة ومن اجل       ذلك تقدم ارتقاء بجانب البرامج التدريبية الفرص التعليمية لعظيم قدرة الموارد البشرية واكسابها المعرفة العلمية الحديثة من خلال خدمات لدعم المسار المهني بالتعليم المتميز للقادة ومدراء الاعمال وتطوير المهارات والقدرات العلمية والتعليمية"
     }
   ],
   "Testimonials": [

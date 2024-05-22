@@ -323,6 +323,7 @@ header .intro-text {
 #services .service-desc {
   margin: 10px 10px 20px;
 }
+
 #services h2 {
   color: #fff;
 }
@@ -336,8 +337,12 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
+#services .hovering:hover {
+  border: solid white;
+  border-radius: 20px;
+}
 #services i.fa {
-  font-size: 55px;
+  font-size: 75px;
   width: 160px;
   height: 160px;
   padding: 20px 20px;
@@ -353,10 +358,69 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.83);
 }
 #services .service-desc {
   margin-bottom: 40px;
+}
+#services .service-desc p {
+  font-size: 15px;
+}
+
+/* consulting services */
+#consultServices {
+  padding: 100px 0;
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  /* color: #fff; */
+  /* background: #f6f6f6; */
+}
+#consultServices .service-desc {
+  margin: 10px 10px 20px;
+}
+
+#consultServices h2 {
+  /* color: #fff; */
+}
+#consultServices .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+
+#consultServices i.fa {
+  font-size: 35px;
+  /* width: 160px;
+  height: 160px; */
+
+  padding: 20px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  /* border: solid; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#consultServices h3 {
+  font-weight: 500;
+  padding: 5px 0;
+  /* color: #fff; */
+  margin-top: 30px;
+}
+#consultServices p {
+  /* color: rgba(255, 255, 255, 0.83); */
+  margin-top: 10px;
+}
+#consultServices .service-desc {
+  margin-bottom: 40px;
+}
+#consultServices .service-desc p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.581);
 }
 /* Portfolio Section */
 #portfolio {
@@ -478,7 +542,7 @@ header .intro-text {
   margin-bottom: 40px;
 }
 #contact .section-title p {
-  font-size: 16px;
+  font-size: 18px;
 }
 #contact h2 {
   color: #fff;
