@@ -16,7 +16,7 @@ function CountryPage() {
         content={WhyCountryInfo[id]}
       />
       <Requirements />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

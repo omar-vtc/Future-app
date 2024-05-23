@@ -80,9 +80,9 @@
     },
     {
       "icon": "fa bi bi-person-fill-gear",
-      "to": "/Studies",
+      "to": "/Education",
       "name": "التدريب والتعليم",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "تقدم أكاديمية المستقبل الخدمات التعليمية للقادة والمدراء من اجل تعزيز مكانتهم العلمية والمعرفية والقيادية المدعمة بالدراسةوالتخصص الاكاديمي من خلال التعاون مع مؤسسات التعليم المتميزة في أوروبا وغيرها من الدول المتقدمة في الجوانب التعليمية"
     },
     {
       "icon": "fa bi bi-gear-fill",

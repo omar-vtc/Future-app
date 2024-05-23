@@ -52,7 +52,7 @@ function Studies() {
           </div>
         </div>
       </div>
-      <NewFooter />
+      {/* <NewFooter /> */}
     </div>
   );
 }

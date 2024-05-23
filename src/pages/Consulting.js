@@ -28,7 +28,7 @@ function Consulting() {
       <div className="marginTop">
         <Footer />
       </div> */}
-      <NewFooter />
+      {/* <NewFooter /> */}
     </div>
   );
 }

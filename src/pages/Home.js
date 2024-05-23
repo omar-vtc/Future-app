@@ -42,7 +42,7 @@ function Home() {
       )} */}
       {/* <UtTitle />
       <UtGrid /> */}
-      <NewFooter data={landingPageData.Contact} />
+      {/* <NewFooter data={landingPageData.Contact} /> */}
       {/* <Footer /> */}
     </div>
   );

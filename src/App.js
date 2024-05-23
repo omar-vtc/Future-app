@@ -7,6 +7,8 @@ import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
 import StrategyPage from "./pages/StrategyPage";
 import consultData from "./data/consulting.json";
+import Education from "./pages/Education";
+import NewFooter from "./components/Footer/NewFooter";
 function App() {
   return (
     <div>
@@ -27,8 +29,12 @@ function App() {
           <Route path="/Strategy">
             <StrategyPage />
           </Route>
+          <Route path="/Education">
+            <Education />
+          </Route>
         </Switch>
       </Router>
+      <NewFooter />
     </div>
   );
 }
