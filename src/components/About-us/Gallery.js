@@ -1,6 +1,5 @@
 import React from "react";
 import { Image } from "./Image";
-import smg from "../../img/portfolio/01-large.jpg";
 import sm01 from "../../img/portfolio/01-small.jpg";
 import sm02 from "../../img/portfolio/02-small.jpg";
 import sm03 from "../../img/portfolio/03-small.jpg";
@@ -35,7 +34,7 @@ export const Gallery = (props) => {
     },
     {
       title: "Project Title",
-      largeImage: lg02,
+      largeImage: lg03,
       smallImage: sm03,
     },
     {

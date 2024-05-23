@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
 import StrategyPage from "./pages/StrategyPage";
-import consultData from "./data/consulting.json";
 import Education from "./pages/Education";
 import NewFooter from "./components/Footer/NewFooter";
+import { NewH } from "./components/NewHeader/NewH";
 function App() {
   return (
     <div>
       <Router>
+        <NewH />
         <Switch>
           <Route exact path="/">
             <Home />

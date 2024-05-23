@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-
-import { NewH } from "../components/NewHeader/NewH";
 import StudiesData from "../data/Studies.json";
-import NewFooter from "../components/Footer/NewFooter";
 
 function Studies() {
   const [StudiesDataPage, setStudiesDataPage] = useState({});
@@ -11,7 +8,7 @@ function Studies() {
   }, []);
   return (
     <div>
-      <NewH />
+      {/* <NewH /> */}
       <div id="consultServices" className="text-center">
         <div className="container">
           <div className="section-title">

@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/header.css";
-import Grid3Boxes from "./NewGrid3Boxes";
+
 import { Grid } from "@mui/material";
 import { Box } from "@mui/material";
 function GridNew() {

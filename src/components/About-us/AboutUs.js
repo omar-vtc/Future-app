@@ -1,7 +1,5 @@
 import "../../css/aboutUs.css";
-import AboutFuture from "./AboutFuture";
 
-import ProductCategories from "../UtilitiesCont/ProductCategories";
 import FeaturesOne from "../UtilitiesCont/FeaturesOne";
 
 function AboutUs() {

@@ -1,6 +1,5 @@
 import Requirements from "../components/CountryInfo/Requirements";
 import WhyCountry from "../components/CountryInfo/WhyCountry";
-import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import IntroBoxesCont from "../components/Content/IntroBoxes/IntroBoxesCont";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";

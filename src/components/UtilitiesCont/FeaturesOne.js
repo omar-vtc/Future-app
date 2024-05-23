@@ -2,18 +2,10 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "./Typography";
-import Icon from "@mui/material/Icon";
-import Stack from "@mui/material/Stack";
-import MediationIcon from "@mui/icons-material/Mediation";
-import SettingsOverscanIcon from "@mui/icons-material/SettingsOverscan";
-import TokenIcon from "@mui/icons-material/Token";
+
 // Material Kit 2 React components
 import MKBox from "./../MKBox/index";
-import MKTypography from "./../MKTypography/index";
-import borders from "../../assets/theme/base/borders";
-import GridFeatures from "./GridFeatures";
-import { MyLocation } from "@mui/icons-material";
-import TitleGridItem from "./TitleGridItem";
+
 import GridFirstRow from "./GridFirstRow";
 import GridRow from "./GridRow";
 
