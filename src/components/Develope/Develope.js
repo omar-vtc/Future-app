@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import StudiesData from "../../data/Studies.json";
+import DevelopeData from "../../data/Develope.json";
 
-function StudiesServices() {
-  const [StudiesDataPage, setStudiesDataPage] = useState({});
+function Develope() {
+  const [DevelopeDataPage, setDevelopeDataPage] = useState({});
   useEffect(() => {
-    setStudiesDataPage(StudiesData);
+    setDevelopeDataPage(DevelopeData);
   }, []);
   return (
     <div>
@@ -12,10 +12,13 @@ function StudiesServices() {
       <div id="consultServices" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>الدراسات</h2>
+            <h2>
+              متابعة وتطوير الأداء المالي والإداري والفني والتسويقي للشركات
+            </h2>
             <p>
-              تقدم أكاديمية المستقبل الدراسات التالية للمؤسسات والجهات الحكومية
-              ومنظمات الاعمال:
+              مساعدة اصحاب الشركات والمنشآت في إدارة وتطوير وتحسين الأعمال
+              والإجراءات الإدارية والمالية والتسويقية والتركيز على المهام
+              والعمليات الرئيسية وفي سبيل ذلك نقدم مجموعة الخدمات التالية:
             </p>
           </div>
           <div
@@ -26,8 +29,8 @@ function StudiesServices() {
               justifyContent: "center",
             }}
           >
-            {StudiesDataPage.Studies
-              ? StudiesDataPage.Studies.map((d, i) => (
+            {DevelopeDataPage.Develope
+              ? DevelopeDataPage.Develope.map((d, i) => (
                   <div
                     key={`${d.name}-${i}`}
                     className="col-md-4 hovering"
@@ -54,4 +57,4 @@ function StudiesServices() {
   );
 }
 
-export default StudiesServices;
+export default Develope;

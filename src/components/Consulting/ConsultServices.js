@@ -13,8 +13,10 @@ export const ConsultServices = (props) => {
         <div className="section-title">
           <h2>الاستشارات</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            تعطي الأكاديمية أولوية في نشاط الاستشارات المؤسسات الحكومية وللشركات
+            بمختلفات فئاتها (المتوسطة والكبيرة وأيضا الصغيرة) من اجل تحسين
+            مركزها التنافسي بتقديم الحلول الابتكارية لمعالجة التحديات والاستفادة
+            من الفرص المتاحة.
           </p>
         </div>
         <div
@@ -31,7 +33,7 @@ export const ConsultServices = (props) => {
                   key={`${d.name}-${i}`}
                   className="col-md-4 hovering"
                   style={{
-                    height: "270px",
+                    height: "21rem",
                     borderRadius: "20px",
                     margin: "5px",
                     background: "#f6f6f6",

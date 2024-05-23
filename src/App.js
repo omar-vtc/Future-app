@@ -9,6 +9,7 @@ import StrategyPage from "./pages/StrategyPage";
 import Education from "./pages/Education";
 import NewFooter from "./components/Footer/NewFooter";
 import { NewH } from "./components/NewHeader/NewH";
+import DevelopePage from "./pages/DevelopePage";
 function App() {
   return (
     <div>
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/Education">
             <Education />
+          </Route>
+          <Route path="/Develope">
+            <DevelopePage />
           </Route>
         </Switch>
       </Router>
