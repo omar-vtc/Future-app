@@ -12,11 +12,11 @@
 }
 
 .header-cont {
-  background-color: #00072dbb;
+  background-color: #f6f6f6;
   width: 100%;
   height: 100dvh;
   z-index: 1;
-  color: white;
+  color: #171e5c;
   position: relative;
 }
 .header {

@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/spain.css";
 function WhyCountry(props) {
   return (
-    <div className="why-country-main">
-      <div className="why-country">
+    <div className="why-country-main ">
+      <div className="why-country ">
         <div className="why-country-cont">
           <h1>Why {props.title}?</h1>
           <ul className="ul-country">
