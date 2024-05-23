@@ -13,10 +13,13 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>معلومات عن اكاديمية المستقبل</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style" style={{ display: "flex" }}>
+              <h3>لماذا تختار اكادمية المستقبل؟</h3>
+              <div
+                className="list-style"
+                style={{ display: "flex", width: "100%" }}
+              >
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data

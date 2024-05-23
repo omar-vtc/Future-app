@@ -1,22 +1,12 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
+    "title": "أكاديمية المستقبل",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "تأسست أكاديمية المستقبل عام 2007 في مصر و في ماليزيا عام 2008 وبدأت نشاطها في دولة الإمارات العربية المتحدة منذ عام 2009 ، ومؤخرا أنشأت فرعها المستقل في الامارات حيث توافق إنشاؤها مع ما شهده دولة الامارات العربية المتحدة ودول المنطقة، من تحول كبير نحو مفهوم الحكومة الذكية والإبداع المؤسسي وتطبيقات الذكاء الاصطناعي وتطوير منظومة التعليم لتتوافق مع تحديات المستقبل.",
+    "Why": ["سرعة التخطيط", "الاهتمام بالتفاصيل", "الابتكار", "التميز"],
+    "Why2": ["التميز", "دقة في العمل", "كفائة المستشارين", "حسن المتابعة"]
   },
   "Gallery": [
     {
@@ -100,33 +90,33 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "اعداد وتنفيذ مشروع لتمية ريادة الاعمال النسائية من برامج تدريبية واستشارية وفعاليات موجهة بالاحتياجات بالأداء لكل منشأة",
+      "name": "غرفة ابوظبي"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "اعداد مشروع تأسيس صندوق للتمويل المشترك بين القطاع الخاص والحكومة يطرح للاكتتاب ومسجل في هيئة الأوراق المالية في الامارات كأول صندوق من نوعه",
+      "name": "هيئة الأوراق المالية"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "اعداد وتنفيذ خطة البرامج التدريبية المهنية كنوع من الدعم الفني المرتبط بنشاط التمويل لضمان التمكن من استخدام التمويل المقدم بكفاءة.",
+      "name": "مؤسسة رواد بحكومة الشارقة"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "تم المشاركة في اعداد دراسة لتقييم دور مؤسسات دعم المشاريع الصغيرة في الامارات وتأثير بيئة الاعمال على نمو القطاع ( لدينا نسخة الدراسة)",
+      "name": "وزارة الاقتصاد"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "بناء نموذج عمل متكامل لتحويل المركز الأمريكي المملوك للغرفة الي مركز اعمال المشروعات الصغيرة في الامارة",
+      "name": "غرفة تجارة وصناعة الشارقة"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "تم اعداد استراتيجية متكاملة لعمل الوزارة لدعم المشروعات الصغيرة والمتوسطة",
+      "name": "وزارة التنمية المحلية - مصر"
     }
   ],
   "Team": [
@@ -152,9 +142,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "The Tower Plaza Hotel Dubai, office 1901, Sheikh Zayed Road, Opp. Emirates Towers Metro Station",
+    "phone": "UAE number +971507441621,\n Spain number 0034654236199",
+    "email": "info@futureacadem.com.eg ",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

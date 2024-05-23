@@ -10,6 +10,7 @@ import Education from "./pages/Education";
 import NewFooter from "./components/Footer/NewFooter";
 import { NewH } from "./components/NewHeader/NewH";
 import DevelopePage from "./pages/DevelopePage";
+import Data from "./data/data.json";
 function App() {
   return (
     <div>
@@ -39,7 +40,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <NewFooter />
+      <NewFooter data={Data.Contact} />
     </div>
   );
 }

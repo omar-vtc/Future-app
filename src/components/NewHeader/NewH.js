@@ -11,19 +11,20 @@ export const NewH = (props) => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
-                  We are a Landing Page
+                  أكاديمية المستقبل
                   <span></span>
                 </h1>
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sed commodo nibh ante
-                  facilisis bibendum."
+                  "حيث تقدم أكاديمية المستقبل خدمات دعم التعليم والاستشارات
+                  والبحوث والدراسات والبرامج التدريبة المتميزة لمؤسسات القطاع
+                  الحكومي وشركات القطاع الخاص وقادة الاعمال."
                 </p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
+                  style={{ fontSize: "18px", fontWeight: "500" }}
                 >
-                  Learn More
+                  معرفة المزيد
                 </a>{" "}
               </div>
             </div>
