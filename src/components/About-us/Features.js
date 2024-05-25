@@ -13,7 +13,7 @@ export const Features = (props) => {
           //   border: "solid red",
         }}
       >
-        <LineTitle title="Features" />
+        <LineTitle title="المقومات" />
         <div className="row" style={{ marginBottom: "20px" }}>
           {props.data
             ? props.data.map((d, i) => (
