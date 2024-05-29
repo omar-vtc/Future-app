@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../css/index.css";
+import "../../public/css/index.css";
 function UtTitle() {
   return (
     <div className="ut-title">

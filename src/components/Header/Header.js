@@ -20,7 +20,7 @@ function Header(props) {
   } else {
     return (
       <header className="header-cont container-fluid">
-        <Navb homePage={props.homePage} />
+        <Navb />
         <div className="country-intro">
           <IntroBox homePage={false} content={props.content} />
           <CountryPic />
