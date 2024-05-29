@@ -11,7 +11,7 @@ function Header(props) {
     return (
       <div className="mega">
         <header className="header container-fluid">
-          <Navb homePage={props.homePage} />
+          <Navb />
           <IntroBox homePage={props.content.homePage} content={props.content} />
           <HeaderGrid />
         </header>

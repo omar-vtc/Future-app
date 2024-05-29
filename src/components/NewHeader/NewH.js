@@ -4,7 +4,7 @@ import Navb from "./Navb";
 export const NewH = (props) => {
   return (
     <header id="header">
-      <Navb homePage={props.homePage} />
+      <Navb />
       <div className="intro">
         <div className="overlay">
           <div className="container">

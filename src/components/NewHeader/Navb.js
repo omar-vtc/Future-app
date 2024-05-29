@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/header.css";
 import logo from "../../img/logo.png";
@@ -9,34 +9,10 @@ import DropComponent from "./DropComponent";
 import countriesHome from "../Content/CountriesInfo/CountriesHome";
 import UniversitiesHome from "../Content/CountriesInfo/UniversitiesHome";
 
-function Navb(props) {
-  const [navbarColor, setNavbarColor] = useState("transparent");
-  console.log(props.homePage);
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY;
-
-    if (scrollPosition >= 90) {
-      setNavbarColor("light");
-      // console.log(scrollPosition);
-    } else {
-      setNavbarColor("transparent");
-      // console.log("Hello");
-    }
-  };
-  useEffect(() => {
-    if (props.homePage) {
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    } else {
-      setNavbarColor("light");
-    }
-  }, []);
+function Navb() {
   return (
     <Navbar
       expand="lg"
-      bg={navbarColor}
       // className="bg-body"
       fixed="top"
     >

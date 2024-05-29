@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
 import Studies from "./pages/Studies";
-import StrategyPage from "./pages/StrategyPage";
 import Education from "./pages/Education";
 import NewFooter from "./components/Footer/NewFooter";
 import { NewH } from "./components/NewHeader/NewH";
@@ -29,9 +28,7 @@ function App() {
           <Route path="/Studies">
             <Studies />
           </Route>
-          <Route path="/Strategy">
-            <StrategyPage />
-          </Route>
+
           <Route path="/Education">
             <Education />
           </Route>
