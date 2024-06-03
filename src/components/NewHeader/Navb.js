@@ -11,11 +11,7 @@ import UniversitiesHome from "../Content/CountriesInfo/UniversitiesHome";
 
 function Navb() {
   return (
-    <Navbar
-      expand="lg"
-      // className="bg-body"
-      fixed="top"
-    >
+    <Navbar expand="lg" className="bg-body" fixed="top">
       <Container fluid>
         <Navbar.Brand href="/">
           <img

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DevelopeData from "../../data/Develope.json";
+import Titledesign from "../UtilitiesCont/Titledesign";
 
 function Develope() {
   const [DevelopeDataPage, setDevelopeDataPage] = useState({});
@@ -11,16 +12,14 @@ function Develope() {
       {/* <NewH /> */}
       <div id="consultServices" className="text-center">
         <div className="container">
-          <div className="section-title">
-            <h2>
-              متابعة وتطوير الأداء المالي والإداري والفني والتسويقي للشركات
-            </h2>
-            <p>
-              مساعدة اصحاب الشركات والمنشآت في إدارة وتطوير وتحسين الأعمال
-              والإجراءات الإدارية والمالية والتسويقية والتركيز على المهام
-              والعمليات الرئيسية وفي سبيل ذلك نقدم مجموعة الخدمات التالية:
-            </p>
-          </div>
+          <Titledesign
+            title="متابعة وتطوير الأداء المالي والإداري والفني والتسويقي للشركات"
+            subtitle="
+          مساعدة اصحاب الشركات والمنشآت في إدارة وتطوير وتحسين الأعمال
+          والإجراءات الإدارية والمالية والتسويقية والتركيز على المهام
+          والعمليات الرئيسية وفي سبيل ذلك نقدم مجموعة الخدمات التالية:"
+          />
+
           <div
             className="row"
             style={{

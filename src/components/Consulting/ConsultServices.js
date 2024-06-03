@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import consultData from "../../data/consulting.json";
+import Titledesign from "../UtilitiesCont/Titledesign";
 
 export const ConsultServices = (props) => {
   const [consultDataPage, setconsultDataPage] = useState({});
@@ -10,15 +11,15 @@ export const ConsultServices = (props) => {
   return (
     <div id="consultServices" className="text-center">
       <div className="container">
-        <div className="section-title">
-          <h2>الاستشارات</h2>
-          <p>
+        <Titledesign
+          title="الاستشارات"
+          subtitle="
             تعطي الأكاديمية أولوية في نشاط الاستشارات المؤسسات الحكومية وللشركات
             بمختلفات فئاتها (المتوسطة والكبيرة وأيضا الصغيرة) من اجل تحسين
             مركزها التنافسي بتقديم الحلول الابتكارية لمعالجة التحديات والاستفادة
-            من الفرص المتاحة.
-          </p>
-        </div>
+            من الفرص المتاحة."
+        />
+
         <div
           className="row"
           style={{

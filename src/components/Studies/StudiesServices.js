@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import StudiesData from "../../data/Studies.json";
+import { Title } from "@mui/icons-material";
+import Titledesign from "../UtilitiesCont/Titledesign";
 
 function StudiesServices() {
   const [StudiesDataPage, setStudiesDataPage] = useState({});
@@ -11,13 +13,11 @@ function StudiesServices() {
       {/* <NewH /> */}
       <div id="consultServices" className="text-center">
         <div className="container">
-          <div className="section-title">
-            <h2>الدراسات</h2>
-            <p>
-              تقدم أكاديمية المستقبل الدراسات التالية للمؤسسات والجهات الحكومية
-              ومنظمات الاعمال:
-            </p>
-          </div>
+          <Titledesign
+            title="الدراسات"
+            subtitle="تقدم أكاديمية المستقبل الدراسات التالية للمؤسسات والجهات الحكومية و منظمات الاعمال:"
+          />
+
           <div
             className="row"
             style={{
