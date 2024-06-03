@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 
 import JsonData from ".././data/data.json";
-import { Features } from "../components/About-us/Features";
-import { About } from "../components/About-us/About";
-import { Services } from "../components/About-us/Services";
-import { Gallery } from "../components/About-us/Gallery";
-import { Team } from "../components/About-us/Team";
-import { Testimonials } from "../components/About-us/Testimonials";
+import { Features } from "../components/AboutUsComponents/Features";
+import { About } from "../components/AboutUsComponents/About";
+import { Services } from "../components/AboutUsComponents/Services";
+import { Gallery } from "../components/AboutUsComponents/Gallery";
+import { Team } from "../components/AboutUsComponents/Team";
+import { Testimonials } from "../components/AboutUsComponents/Testimonials";
 function Home() {
   // console.log(introBoxHome);
   const [landingPageData, setLandingPageData] = useState({});

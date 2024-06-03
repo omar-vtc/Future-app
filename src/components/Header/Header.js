@@ -11,7 +11,7 @@ function Header(props) {
     return (
       <div className="mega">
         <header className="header container-fluid">
-          <Navb homePage={props.homePage} />
+          <Navb />
           <IntroBox homePage={props.content.homePage} content={props.content} />
           <HeaderGrid />
         </header>
@@ -20,7 +20,7 @@ function Header(props) {
   } else {
     return (
       <header className="header-cont container-fluid">
-        <Navb homePage={props.homePage} />
+        <Navb />
         <div className="country-intro">
           <IntroBox homePage={false} content={props.content} />
           <CountryPic />
