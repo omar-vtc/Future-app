@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import StudiesData from "../../data/Studies.json";
-import { Title } from "@mui/icons-material";
 import Titledesign from "../UtilitiesCont/Titledesign";
 
 function StudiesServices() {
