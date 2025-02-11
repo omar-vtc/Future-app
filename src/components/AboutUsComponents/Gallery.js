@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "./Image";
-import sm01 from "../../img/portfolio/01-small.jpg";
+import sm01 from "../../img/portfolio/img06.jpg";
 import sm02 from "../../img/portfolio/02-small.jpg";
 import sm03 from "../../img/portfolio/03-small.jpg";
 import sm04 from "../../img/portfolio/04-small.jpg";
@@ -74,20 +74,21 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>الاستديو</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
+            dapibus leonec. */}
           </p>
         </div>
         <div className="row">
           <div
             className="portfolio-items"
-            style={{ display: "flex", flexWrap: "wrap" }}
+            style={{ display: "flex", flexWrap: "wrap", overFlow: "hidden" }}
           >
             {gallery
               ? gallery.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
                     className="col-sm-6 col-md-4 col-lg-4"
+                    style={{ overFlow: "hidden" }}
                   >
                     <Image
                       title={d.title}

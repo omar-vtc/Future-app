@@ -12,7 +12,7 @@
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "../../img/portfolio/01-small.jpg"
+      "smallImage": "../../img/portfolio/img01.jpg"
     },
     {
       "title": "Project Title",
@@ -89,32 +89,32 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/cogwheel.png",
       "text": "اعداد وتنفيذ مشروع لتمية ريادة الاعمال النسائية من برامج تدريبية واستشارية وفعاليات موجهة بالاحتياجات بالأداء لكل منشأة",
       "name": "غرفة ابوظبي"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/increase.png",
       "text": "اعداد مشروع تأسيس صندوق للتمويل المشترك بين القطاع الخاص والحكومة يطرح للاكتتاب ومسجل في هيئة الأوراق المالية في الامارات كأول صندوق من نوعه",
       "name": "هيئة الأوراق المالية"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/gear.png",
       "text": "اعداد وتنفيذ خطة البرامج التدريبية المهنية كنوع من الدعم الفني المرتبط بنشاط التمويل لضمان التمكن من استخدام التمويل المقدم بكفاءة.",
       "name": "مؤسسة رواد بحكومة الشارقة"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/engineering.png",
       "text": "تم المشاركة في اعداد دراسة لتقييم دور مؤسسات دعم المشاريع الصغيرة في الامارات وتأثير بيئة الاعمال على نمو القطاع ( لدينا نسخة الدراسة)",
       "name": "وزارة الاقتصاد"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/robotic.png",
       "text": "بناء نموذج عمل متكامل لتحويل المركز الأمريكي المملوك للغرفة الي مركز اعمال المشروعات الصغيرة في الامارة",
       "name": "غرفة تجارة وصناعة الشارقة"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/operational-system.png",
       "text": "تم اعداد استراتيجية متكاملة لعمل الوزارة لدعم المشروعات الصغيرة والمتوسطة",
       "name": "وزارة التنمية المحلية - مصر"
     }
@@ -143,7 +143,7 @@
   ],
   "Contact": {
     "address": "The Tower Plaza Hotel Dubai, office 1901, Sheikh Zayed Road, Opp. Emirates Towers Metro Station",
-    "phone": "UAE number +971507441621,\n Spain number 0034654236199",
+    "phone": "00971507441621 \n 0034654236199",
     "email": "info@futureacadem.com.eg ",
     "facebook": "fb.com",
     "twitter": "twitter.com",

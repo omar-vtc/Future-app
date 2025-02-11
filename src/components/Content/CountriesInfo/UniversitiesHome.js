@@ -1,38 +1,41 @@
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
+
 const UniversitiesHome = [
   {
     id: 0,
-    country: "In Spain",
+    country: "in-Spain",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {
     id: 1,
-    country: "In Poland",
+    country: "in-poland",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {
     id: 2,
-    country: "In Italy",
+    country: "in-Italy",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {
     id: 3,
-    country: "In Cezch Republic",
+    country: "in-Cezch-Republic",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {
     id: 4,
-    country: "In Turkey",
+    country: "in-Turkey",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
 
   {
     id: 5,
-    country: "In China",
+    country: "in-China",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {
     id: 6,
-    country: "In Malissia",
+    country: "in-Malissia",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
 ];

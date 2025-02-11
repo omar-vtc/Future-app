@@ -13,7 +13,7 @@ export const Image = ({ title, largeImage, smallImage }) => {
           <img
             src={smallImage}
             className="img-responsive"
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "100%", overflow: "hidden" }}
             alt={title}
           />{" "}
         </a>{" "}

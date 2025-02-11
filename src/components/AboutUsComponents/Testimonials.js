@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../img/testimonials/01.jpg";
 export const Testimonials = (props) => {
   return (
     <div id="testimonials">
@@ -14,7 +13,7 @@ export const Testimonials = (props) => {
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}
-                      <img src={img} alt="" />{" "}
+                      <img src={d.img} alt="" />{" "}
                     </div>
                     <div className="testimonial-content">
                       <p>"{d.text}"</p>

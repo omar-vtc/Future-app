@@ -1,3 +1,6 @@
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
+
 const countriesHome = [
   {
     id: 0,
@@ -16,7 +19,7 @@ const countriesHome = [
   },
   {
     id: 3,
-    country: "Cezch Republic",
+    country: "Cezch-Republic",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi porro, aut placeat assumenda fugit, omnis, libero velit at doloribus officiis earum ipsa vel? Quibusdam perspiciatis laudantium voluptate fuga cupiditate at?",
   },
   {

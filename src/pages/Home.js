@@ -20,9 +20,9 @@ function Home() {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      {/* <Team data={landingPageData.Team} /> */}
       {/* <AboutUs /> */}
       {/* <WhyFuture /> */}
       {/* {countriesHome.map((country, index) =>
