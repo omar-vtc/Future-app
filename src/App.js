@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import "./input.css";
+import "./output.css";
+
 import Home from "./pages/Home";
 import CountryPage from "./pages/CountryPage";
 import Consulting from "./pages/Consulting";
