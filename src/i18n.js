@@ -13,7 +13,7 @@ i18n
   .use(initReactI18next) // Initializes react-i18next with i18n instance
   .init({
     resources: {
-      //   en: { translation: translationEN },
+      // en: { translation: translationEN },
       ar: { translation: translationAR },
     },
     fallbackLng: "en", // Fallback language if the user’s language isn’t available
